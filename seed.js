@@ -1,5 +1,5 @@
 let mongoose = require("mongoose");
-let db = require("../models");
+let db = require("./models");
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://Dmitriy:Password123@ds137291.mlab.com:37291/heroku_z4rdmgcs", { 
   useNewUrlParser: true,
